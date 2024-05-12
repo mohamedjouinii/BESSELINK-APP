@@ -1,0 +1,31 @@
+name: bessilink_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.0.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/rounded_rect_orange.png
+    - assets/rounded_rect_gris.png
+    - assets/guide_to_press_power_button.png
+    - assets/more_information_button.png
+    - assets/scanning_device.png
+    - assets/connect_button.png
+    - assets/Connect.png
+    - assets/No meter detected.png
+  uses-material-design: true
